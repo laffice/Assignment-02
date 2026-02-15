@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    /* max-width: 100%; */
+}
+
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+/* shared style */
+.bg-cl{
+    background-color: #1A0B2E;
+    color: #FFFFFF;
+}
+.flex{ 
+    display: flex;  
+    
+}
+
+/* this is navbar */
+
+nav{
+    justify-content: space-around;
+    max-width: 1900px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.title h2{
+    font-size: 3rem;
+}
+
+nav .logo{
+  background: linear-gradient(30deg, #F7E93F, #FB09B4, #9100F8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+nav ul {
+    gap: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+    font-weight: 400;
+    
+}
+
+.btn{
+    color: #FFFFFF;
+    padding: 13px 24px 13px 16px;
+    border-radius: 10000px;
+    background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+}
+
+.hamburger{
+    display: none;
+    
+}
