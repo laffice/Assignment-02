@@ -1,6 +1,8 @@
 *{
     margin: 0;
     /* max-width: 100%; */
+    color: #FFFFFF
+    ;
 }
 
 
@@ -63,9 +65,65 @@ nav ul li a{
     padding: 13px 24px 13px 16px;
     border-radius: 10000px;
     background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+    border: none;
 }
 
 .hamburger{
     display: none;
-    
+
+}
+
+/* this is header */
+
+
+header{
+    background-image: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-btn{
+    padding: 8px 16px 8px 16px;
+    border-radius: 1000px;
+    background-color: #00FF88;
+    border: none;
+    color: #1A0B2E;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.hero-content{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 120px;
+}
+.hero-content h1{
+    font-size: 3.75rem;
+    font-weight: 800;
+    padding-bottom: 7px;
+}
+.hero-content p{
+    padding-bottom: 30px;
+    font-weight: 100;
+}
+
+.hero-content .spt{
+    padding: 13px 20px 13px 30px;
+    margin-right: 10px;
+}
+
+.hero-content .msg{
+    color: #00FF88;
+    padding: 13px 24px 13px 16px;
+    border-radius: 10000px;
+    background-color: transparent;
+    border: 1px solid #00FF88;
+}
+
+
+.fa-envelope{
+     color: #00FF88;
 }
